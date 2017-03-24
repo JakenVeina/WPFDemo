@@ -1,0 +1,15 @@
+﻿<local:WorkspaceViewModel
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:local="clr-namespace:WPFDemo">
+    <local:WorkspaceViewModel.RedColorValue>50</local:WorkspaceViewModel.RedColorValue>
+    <local:WorkspaceViewModel.GreenColorValue>100</local:WorkspaceViewModel.GreenColorValue>
+    <local:WorkspaceViewModel.BlueColorValue>150</local:WorkspaceViewModel.BlueColorValue>
+    <local:WorkspaceViewModel.SelectedColor>
+        <Color R="50" G="100" B="150" A="255"/>
+    </local:WorkspaceViewModel.SelectedColor>
+    <local:WorkspaceViewModel.SavedColors>
+        <Color R="255" G="0" B="0" A="255"/>
+        <Color R="0" G="255" B="0" A="255"/>
+        <Color R="0" G="0" B="255" A="255"/>
+    </local:WorkspaceViewModel.SavedColors>
+</local:WorkspaceViewModel>
