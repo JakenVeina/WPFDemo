@@ -1,0 +1,15 @@
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\bin\Release\WPFDemo.exe.config
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\bin\Release\WPFDemo.exe
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\bin\Release\WPFDemo.pdb
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo.csprojResolveAssemblyReference.cache
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\Workspace.g.cs
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\App.g.cs
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo_MarkupCompile.cache
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo_MarkupCompile.lref
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\Workspace.baml
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo.g.resources
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo.Properties.Resources.resources
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo.csproj.GenerateResource.Cache
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo.exe
+C:\Users\Jake\documents\visual studio 2017\Projects\WPFDemo\WPFDemo\obj\Release\WPFDemo.pdb
