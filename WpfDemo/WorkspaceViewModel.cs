@@ -23,10 +23,10 @@ namespace WPFDemo
                 if(RedColorValueProperty != value)
                 {
                     RedColorValueProperty = value;
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(RedColorValue)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(RedColorValue)));
 
                     SelectedColorProperty = Color.FromRgb(RedColorValueProperty, GreenColorValueProperty, BlueColorValueProperty);
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
                 }
             }
         }
@@ -40,10 +40,10 @@ namespace WPFDemo
                 if (GreenColorValueProperty != value)
                 {
                     GreenColorValueProperty = value;
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(GreenColorValue)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(GreenColorValue)));
 
                     SelectedColorProperty = Color.FromRgb(RedColorValueProperty, GreenColorValueProperty, BlueColorValueProperty);
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
                 }
             }
         }
@@ -57,10 +57,10 @@ namespace WPFDemo
                 if (BlueColorValueProperty != value)
                 {
                     BlueColorValueProperty = value;
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(BlueColorValue)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BlueColorValue)));
 
                     SelectedColorProperty = Color.FromRgb(RedColorValueProperty, GreenColorValueProperty, BlueColorValueProperty);
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
                 }
             }
         }
@@ -74,16 +74,16 @@ namespace WPFDemo
                 if(SelectedColorProperty != value)
                 {
                     SelectedColorProperty = value;
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedColor)));
 
                     RedColorValueProperty = value.R;
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(RedColorValue)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(RedColorValue)));
 
                     GreenColorValueProperty = value.G;
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(GreenColorValue)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(GreenColorValue)));
 
                     BlueColorValueProperty = value.B;
-                    PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(BlueColorValue)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BlueColorValue)));
                 }
             }
         }
